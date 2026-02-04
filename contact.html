@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact — Motion Media</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="dark">
+<div class="page-transition"></div>
+
+<header class="header">
+  <div class="logo">Motion <span>Media</span></div>
+  <nav class="nav">
+    <a class="nav-link" href="index.html">Home</a>
+    <a class="nav-link" href="blog.html">Blog</a>
+    <a class="nav-link active" href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <h1>Let’s Work Together</h1>
+  <p>Start a conversation with our studio</p>
+</section>
+
+<section class="contact-section reveal">
+  <div class="contact-grid">
+
+    <div class="contact-details">
+      <h2>Contact Information</h2>
+      <p>
+        We collaborate with brands, startups, and creators
+        who value craft, clarity, and long-term impact.
+      </p>
+
+      <div class="contact-meta">
+        <p><strong>Email</strong><br>motionmediacircle@gmail.com</p>
+        <p><strong>Location</strong><br>India (Remote-friendly)</p>
+      </div>
+    </div>
+
+    <form class="contact-form" id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="company" placeholder="Company / Brand">
+      <textarea name="message" rows="5" placeholder="Tell us about your project" required></textarea>
+
+      <button class="btn" type="submit">Send Message</button>
+      <p class="form-status" id="formStatus"></p>
+    </form>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-bottom">© 2026 Motion Media</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
